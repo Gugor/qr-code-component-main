@@ -62,4 +62,4 @@ body
 
 ## Acknowledgments
 
-Thanks to [Frontend Mentor](https://www.frontendmentor.io) for this Newie chanllenge. 
+Thanks to [Frontend Mentor](https://www.frontendmentor.io) for this Newie challenge. 
