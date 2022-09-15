@@ -34,7 +34,7 @@
 
 ### What I learned
 
-I've played with the calmp() function to keep the withs of some elements in a ranged size:
+I've played with the 'clamp()' function to keep the withs of some elements in a ranged size:
 
 ```css
 .card 
