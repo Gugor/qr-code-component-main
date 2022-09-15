@@ -1,0 +1,10 @@
+:root 
+{
+    --clr-primary: hsl(220, 15%, 55%);
+    --clr-primary-light: hsl(212, 45%, 89%);
+    --clr-primary-dark: hsl(218, 44%, 22%);
+
+    --clr-white:hsl(0, 0%, 100%);
+
+    --fnt-primary: 'Outfit', sans-serif;
+}

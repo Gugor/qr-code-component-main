@@ -1,0 +1,83 @@
+@import url(variables.css);
+*,
+*::before,
+*::after 
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a 
+{
+    text-decoration: none;
+}
+html,
+body 
+{
+    width: 100vw;
+    height: 100vh;
+}
+body 
+{
+    background-color: var(--clr-primary-light);
+    font-family: var(--fnt-primary);
+    font-size: min(15px,5vw);
+}
+
+img 
+{
+    width:100%;
+}
+
+.content 
+{
+    height: min(100vh,900em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card 
+{
+    width: clamp(315px,80vw,380px);
+    padding:clamp(10px,5%,20px);
+    background-color: var(--clr-white);
+    border-radius: 15px;
+    box-shadow: 0px 0px 136px -52px rgb(141, 150, 159);
+}
+
+.qr-wrap img
+{
+    border-radius: 15px;
+}
+.qr-description 
+{
+    padding:8% 4%;
+}
+.qr-description > * + * 
+{
+    margin-top: 5%;
+}
+.qr-heading 
+{
+    color:var(--clr-primary-dark);
+    font-size: clamp(18px,5vw,28px);
+    font-weight: 700;
+    text-align: center;
+}
+.qr-text,
+.attribution 
+{
+    color: var(--clr-primary-light);
+    font-weight: 400;
+    text-align: center;
+}
+
+.attribution a 
+{
+    color: var(--clr-primary-dark);
+    font-weight: 600;
+}
+
+/* END Typografy*/
