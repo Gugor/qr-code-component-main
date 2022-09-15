@@ -13,11 +13,13 @@
 
 ![](./screenshots/screenshot-qr-mobile.png)
 
+![](./screenshots/screenshot-qr-desktop.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR Card](https://gugor.github.io/qr-code-component-main/)
+
 
 ## My process
 
@@ -32,27 +34,29 @@
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I've played with the calmp() function to keep the withs of some elements in a ranged size:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.card 
+{
+    width: clamp(315px,80vw,380px);
 }
 ```
 
+I've recently learned that this is also a very usefull solution to create responsive sizes for your texts. 
+
+```css
+body 
+{
+    font-size: min(15px,5vw);
+}
+.qr-heading 
+{
+    font-size: clamp(1.8em,5vw,2.3em);
+}
+```
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Gugor](https://www.frontendmentor.io/profile/yourusername)
 
 
